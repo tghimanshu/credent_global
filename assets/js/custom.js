@@ -13,11 +13,19 @@
 
     $(".hamburger").click(hamburger);
     $(".menu").click(function (e) {
+      e.preventDefault();
       if ($(window).width() <= 678) {
         $(".hamburger i").removeClass("fa-times", 1000);
         $(".menu").fadeOut();
       }
-      // console.log($(com.toString())[0].clientHeight);
+    });
+
+    $(".menu ul li a").click(function (e) {
+      window.scrollTo({
+        top:
+          $(e.target.hash).length &&
+          $(e.target.hash).offset().top - $(".tg-nav")[0].clientHeight,
+      });
     });
 
     $(window).scroll(function () {
