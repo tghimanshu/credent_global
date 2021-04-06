@@ -415,11 +415,11 @@
                 </p>
               </div>
               <div class="row gutter-width-md p-top-xl about-info">
-                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-first">
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-second">
                   <canvas id="leftCanvas"></canvas>
                 </div>
                 <div
-                  class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-second d-flex flex-column justify-content-center"
+                  class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-second d-flex flex-column justify-content-center col-first"
                 >
                   <h4>Scenario 1</h4>
                   <p>
@@ -432,7 +432,7 @@
 
               <div class="row gutter-width-md p-top-xl about-info">
                 <div
-                  class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-first d-flex flex-column justify-content-center mt-4 mt-md-0"
+                  class="col-sm-6 col-md-6 col-lg-6 col-xl-6 d-flex flex-column justify-content-center mt-4 mt-md-0 order-2 order-md-1"
                 >
                   <h4>Senario 2</h4>
                   <p>
@@ -448,7 +448,9 @@
                     >
                   </div>
                 </div>
-                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-second">
+                <div
+                  class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-first order-1 order-md-2"
+                >
                   <canvas id="rightCanvas"></canvas>
                 </div>
               </div>
@@ -463,7 +465,12 @@
 
               <div class="row gutter-width-md with-pb-md team-items">
                 <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4">
-                  <div class="team-item">
+                  <div
+                    class="team-item"
+                    data-toggle="modal"
+                    data-target="#plans-modal-aditya"
+                    data-whatever="Basic plan"
+                  >
                     <div class="img object-fit">
                       <div class="object-fit-cover">
                         <img
@@ -475,17 +482,7 @@
 
                     <div class="team-hide-content">
                       <div class="team-hide-content-sec">
-                        <h5 class="page-title">
-                          <a
-                            class="white-link-title"
-                            href="#"
-                            data-toggle="modal"
-                            data-target="#plans-modal-aditya"
-                            data-whatever="Basic plan"
-                          >
-                            Mr. Aditya Kanoria
-                          </a>
-                        </h5>
+                        <h5 class="page-title">Mr. Aditya Kanoria</h5>
                         <p>CEO at company</p>
 
                         <nav>
@@ -494,6 +491,7 @@
                               <a
                                 class="transform-scale-h"
                                 href="https://www.linkedin.com/in/aditya-vikram-kanoria-9b91789/"
+                                target="_blank"
                                 ><i class="fab fa-linkedin-in"></i
                               ></a>
                             </li>
@@ -502,6 +500,7 @@
                               <a
                                 class="transform-scale-h"
                                 href="https://www.facebook.com/avkanoria"
+                                target="_blank"
                                 ><i class="fab fa-facebook-f"></i
                               ></a>
                             </li>
@@ -513,7 +512,12 @@
                 </div>
 
                 <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4">
-                  <div class="team-item">
+                  <div
+                    class="team-item"
+                    data-toggle="modal"
+                    data-target="#plans-modal-mandeep"
+                    data-whatever="Basic plan"
+                  >
                     <div class="img object-fit">
                       <div class="object-fit-cover">
                         <img
@@ -525,17 +529,7 @@
 
                     <div class="team-hide-content">
                       <div class="team-hide-content-sec">
-                        <h5 class="page-title">
-                          <a
-                            class="white-link-title"
-                            href="#"
-                            data-toggle="modal"
-                            data-target="#plans-modal-mandeep"
-                            data-whatever="Basic plan"
-                          >
-                            Mr. Mandeep Singh
-                          </a>
-                        </h5>
+                        <h5 class="page-title">Mr. Mandeep Singh</h5>
                         <p>Founder & Executive Director</p>
 
                         <nav>
@@ -544,6 +538,7 @@
                               <a
                                 class="transform-scale-h"
                                 href="https://www.linkedin.com/in/mandeep-singh-9a4b5116/"
+                                target="_blank"
                                 ><i class="fab fa-linkedin-in"></i
                               ></a>
                             </li>
@@ -555,7 +550,12 @@
                 </div>
 
                 <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4">
-                  <div class="team-item">
+                  <div
+                    class="team-item"
+                    data-toggle="modal"
+                    data-target="#plans-modal-nakshita"
+                    data-whatever="Basic plan"
+                  >
                     <div class="img object-fit">
                       <div class="object-fit-cover">
                         <img
@@ -567,17 +567,7 @@
 
                     <div class="team-hide-content">
                       <div class="team-hide-content-sec">
-                        <h5 class="page-title">
-                          <a
-                            class="white-link-title"
-                            href="#"
-                            data-toggle="modal"
-                            data-target="#plans-modal-nakshita"
-                            data-whatever="Basic plan"
-                          >
-                            Ms. Nakshita Mehta
-                          </a>
-                        </h5>
+                        <h5 class="page-title">Ms. Nakshita Mehta</h5>
                         <p>Product & Strategy</p>
 
                         <nav>
@@ -586,6 +576,7 @@
                               <a
                                 class="transform-scale-h"
                                 href="https://www.linkedin.com/in/nakshita-mehta/"
+                                target="_blank"
                                 ><i class="fab fa-linkedin-in"></i
                               ></a>
                             </li>
